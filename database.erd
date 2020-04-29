@@ -1,0 +1,43 @@
+[User]
+*id
+role_id
+name
+password
+
+[Role]
+*id
+name
+
+[UserDevices]
+*id
+device_id
+user_id
+
+[Device]
+*id
+serial_number
+name
+last_update_time
+location
+status
+prints
+
+[Print]
+*id
+temperatures
+print_time
+gcode
+status
+
+[Temperature]
+*id
+bed
+tool1
+tool0
+date_time
+
+User *--1 Role
+Print 1--* Temperature
+Device 1--* Print
+User *--1 UserDevices
+UserDevices 1--* Device

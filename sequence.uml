@@ -1,0 +1,19 @@
+@startuml
+Device -> Server: Init
+alt successful case
+Server --> Device: Init Response
+else some kind of failure
+Server -> Device: Please repeat
+end
+
+Device -> Server: Start print
+Server --> Device: Start print Response
+
+loop while printing
+Device -> Server: Update information about print
+end
+
+Device -> Server: Stop print
+Server --> Device: Stop print Response
+
+@enduml

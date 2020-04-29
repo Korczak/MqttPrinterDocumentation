@@ -1,0 +1,29 @@
+@startuml
+
+title Initialization
+
+start
+
+:device connects to server;
+
+note left
+    Device gets unique key from server
+    which will be used for authorization
+    
+    Device is now set but not activated
+end note
+
+:user add new device on web application;
+
+note left
+    User needs to provide unique key from device 
+end note
+fork
+:user gets access to device;
+fork again
+:device is activated;
+:device sends updates about status;
+end fork
+stop
+
+@enduml

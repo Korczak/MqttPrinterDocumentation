@@ -1,0 +1,28 @@
+@startuml
+
+@startuml
+
+title Print 
+
+start
+
+:user starts new print;
+
+note left
+    User can start only print on device that is on idle mode
+    Device now sends update about printing status
+end note
+
+while(Print is done) is (No)
+  if(User aborted print) then (yes)
+  :device is set to abort mode;
+  :after cooling printer, device is set to idle mode;
+  stop
+  else (no)
+  :device sends update;
+  endif
+endwhile(Yes)
+:device sends to server information about complete;
+
+:device is now set to idle mode;
+stop

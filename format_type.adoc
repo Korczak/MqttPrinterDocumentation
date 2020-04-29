@@ -1,0 +1,112 @@
+
+= JSONS =
+
+
+== Device ==
+`Thaumatec/Printer/unique_id/device - only one topic`
+
+=== Init ===
+```
+{
+  "command": "Init",
+  "uniqueKey": "some_generate_unique_key"
+}
+```
+
+=== Start print ===
+```
+{
+  "command": "Start print",
+  "gcode": "BLOB"
+}
+```
+
+=== Stop print ===
+```
+{
+  "command": "Stop print"
+}
+```
+
+
+== Server ==
+
+=== Init ===
+`Thaumatec/Printer/Init`
+```
+{
+  "command": "Initialize",
+  "printerId": "device_id"
+}
+```
+
+=== Actual status ===
+`Thaumatec/Printer/printer_id`
+```
+{
+  "command": "Status",
+  "dateTime": "2020-04-20:15:50",
+  "status": "Idle" | "Cooling" | "Printing" | "NotAuthenticated"
+}
+```
+
+=== Print status ===
+`Thaumatec/Printer/printer_id/print/status`
+```
+{
+  "date_time": "2020-04-20:15.35",
+  "temperature": {
+    "tool0": {
+      "actual": 214.8821,
+      "target": 220.0,
+      "offset": 0
+    },
+    "tool1": {
+      "actual": 25.3,
+      "target": null,
+      "offset": 0
+    },
+    "bed": {
+      "actual": 50.221,
+      "target": 70.0,
+      "offset": 5
+    }
+  },
+  "state": {
+    "text": "Operational",
+    "flags": {
+      "operational": true,
+      "paused": false,
+      "printing": false,
+      "cancelling": false,
+      "pausing": false,
+      "sdReady": true,
+      "error": false,
+      "ready": true,
+      "closedOrError": false
+    }
+  }
+}
+```
+
+=== Print image ===
+`Thaumatec/Printer/printer_id/print/status/image`
+`image/jpeg` 
+metadata should contain date_time
+
+=== Print abort ===
+`Thaumatec/Printer/printer_id/print/abort`
+```
+{
+   "command": "Abort"
+}
+```
+
+=== Print end ===
+`Thaumatec/Printer/printer_id/print/end`
+```
+{
+   "command": "end",
+   "printTime": "25:50"
+}
+```

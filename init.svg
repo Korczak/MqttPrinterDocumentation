@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="413px" preserveAspectRatio="none" style="width:744px;height:413px;" version="1.1" viewBox="0 0 744 413" width="744px" zoomAndPan="magnify"><defs><filter height="300%" id="f1o983d4rlxazd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="119" x="311.75" y="26.708">Initialization</text><ellipse cx="493" cy="40.9531" fill="#000000" filter="url(#f1o983d4rlxazd)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><path d="M125,60.9531 L125,131.4844 A0,0 0 0 0 125,131.4844 L382,131.4844 A0,0 0 0 0 382,131.4844 L382,100.2188 L402,96.2188 L382,92.2188 L382,70.9531 L372,60.9531 L125,60.9531 A0,0 0 0 0 125,60.9531 " fill="#FBFB77" filter="url(#f1o983d4rlxazd)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M372,60.9531 L372,70.9531 L382,70.9531 L372,60.9531 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="236" x="131" y="78.02">Device gets unique key from server</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="227" x="131" y="93.1528">which will be used for authorization</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="135" y="108.2856"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="231" x="131" y="123.4185">Device is now set but not activated</text><rect fill="#FEFECE" filter="url(#f1o983d4rlxazd)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="182" x="402" y="79.2344"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="162" x="412" y="100.373">device connects to server</text><path d="M10,155.9023 L10,181.0352 A0,0 0 0 0 10,181.0352 L338,181.0352 A0,0 0 0 0 338,181.0352 L338,173.9023 L358,168.4688 L338,165.9023 L338,165.9023 L328,155.9023 L10,155.9023 A0,0 0 0 0 10,155.9023 " fill="#FBFB77" filter="url(#f1o983d4rlxazd)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M328,155.9023 L328,165.9023 L338,165.9023 L328,155.9023 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="303" x="16" y="172.9692">User needs to provide unique key from device</text><rect fill="#FEFECE" filter="url(#f1o983d4rlxazd)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="270" x="358" y="151.4844"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="250" x="368" y="172.623">user add new device on web application</text><rect fill="#000000" filter="url(#f1o983d4rlxazd)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="483" x="250.5" y="205.4531"/><rect fill="#FEFECE" filter="url(#f1o983d4rlxazd)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="189" x="264.5" y="265.9375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="169" x="274.5" y="287.0762">user gets access to device</text><rect fill="#FEFECE" filter="url(#f1o983d4rlxazd)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="138" x="532.5" y="231.4531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="118" x="542.5" y="252.5918">device is activated</text><rect fill="#FEFECE" filter="url(#f1o983d4rlxazd)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="240" x="481.5" y="300.4219"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="220" x="491.5" y="321.5605">device sends updates about status</text><rect fill="#000000" filter="url(#f1o983d4rlxazd)" height="6" rx="2.5" ry="2.5" style="stroke: #000000; stroke-width: 1.0;" width="483" x="250.5" y="354.3906"/><ellipse cx="493" cy="391.3906" fill="#FFFFFF" filter="url(#f1o983d4rlxazd)" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="493" cy="391.3906" fill="#000000" rx="6" ry="6" style="stroke: #7F7F7F; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="493" x2="493" y1="50.9531" y2="79.2344"/><polygon fill="#A80036" points="489,69.2344,493,79.2344,497,69.2344,493,73.2344" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="493" x2="493" y1="113.2031" y2="151.4844"/><polygon fill="#A80036" points="489,141.4844,493,151.4844,497,141.4844,493,145.4844" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="601.5" x2="601.5" y1="265.4219" y2="300.4219"/><polygon fill="#A80036" points="597.5,290.4219,601.5,300.4219,605.5,290.4219,601.5,294.4219" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="359" x2="359" y1="211.4531" y2="265.9375"/><polygon fill="#A80036" points="355,255.9375,359,265.9375,363,255.9375,359,259.9375" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="601.5" x2="601.5" y1="211.4531" y2="231.4531"/><polygon fill="#A80036" points="597.5,221.4531,601.5,231.4531,605.5,221.4531,601.5,225.4531" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="359" x2="359" y1="299.9063" y2="354.3906"/><polygon fill="#A80036" points="355,344.3906,359,354.3906,363,344.3906,359,348.3906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="601.5" x2="601.5" y1="334.3906" y2="354.3906"/><polygon fill="#A80036" points="597.5,344.3906,601.5,354.3906,605.5,344.3906,601.5,348.3906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="493" x2="493" y1="185.4531" y2="205.4531"/><polygon fill="#A80036" points="489,195.4531,493,205.4531,497,195.4531,493,199.4531" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="493" x2="493" y1="360.3906" y2="380.3906"/><polygon fill="#A80036" points="489,370.3906,493,380.3906,497,370.3906,493,374.3906" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8e579f2e5aae209d283d05ee39a3f925]
+@startuml
+title Initialization
+
+start
+
+:device connects to server;
+
+note left
+    Device gets unique key from server
+    which will be used for authorization
+    
+    Device is now set but not activated
+end note
+
+:user add new device on web application;
+
+note left
+    User needs to provide unique key from device 
+end note
+fork
+:user gets access to device;
+fork again
+:device is activated;
+:device sends updates about status;
+end fork
+stop
+@enduml
+
+PlantUML version 1.2020.08beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 14.0.1+7
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
